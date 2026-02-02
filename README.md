@@ -1,5 +1,13 @@
 ## Hi there 👋
 
+<<<<<<< HEAD
+=======
+<!--
+**WalterPadilla-45/WalterPadilla-45** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+>>>>>>> 4bc68192d3cef8b90fcc95578862ef27a1c66c1d
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -8,4 +16,8 @@
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+<<<<<<< HEAD
 
+=======
+-->
+>>>>>>> 4bc68192d3cef8b90fcc95578862ef27a1c66c1d
