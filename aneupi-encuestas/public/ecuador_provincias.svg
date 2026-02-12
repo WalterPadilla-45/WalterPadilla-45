@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    .provincia { fill: #e5e7eb; stroke: #ffffff; stroke-width: 2; }
+  </style>
+
+  <!-- Costa -->
+  <path id="Esmeraldas" class="provincia" d="M50 80 L200 80 L200 160 L50 160 Z"/>
+  <path id="Manabi" class="provincia" d="M50 170 L200 170 L200 260 L50 260 Z"/>
+  <path id="Guayas" class="provincia" d="M50 270 L200 270 L200 360 L50 360 Z"/>
+  <path id="Santa_Elena" class="provincia" d="M50 370 L200 370 L200 420 L50 420 Z"/>
+  <path id="El_Oro" class="provincia" d="M50 430 L200 430 L200 520 L50 520 Z"/>
+
+  <!-- Sierra -->
+  <path id="Carchi" class="provincia" d="M220 80 L360 80 L360 130 L220 130 Z"/>
+  <path id="Imbabura" class="provincia" d="M220 140 L360 140 L360 190 L220 190 Z"/>
+  <path id="Pichincha" class="provincia" d="M220 200 L360 200 L360 260 L220 260 Z"/>
+  <path id="Cotopaxi" class="provincia" d="M220 270 L360 270 L360 330 L220 330 Z"/>
+  <path id="Tungurahua" class="provincia" d="M220 340 L360 340 L360 390 L220 390 Z"/>
+  <path id="Chimborazo" class="provincia" d="M220 400 L360 400 L360 460 L220 460 Z"/>
+  <path id="Canar" class="provincia" d="M220 470 L360 470 L360 520 L220 520 Z"/>
+
+  <!-- Oriente -->
+  <path id="Sucumbios" class="provincia" d="M380 80 L550 80 L550 150 L380 150 Z"/>
+  <path id="Napo" class="provincia" d="M380 160 L550 160 L550 230 L380 230 Z"/>
+  <path id="Pastaza" class="provincia" d="M380 240 L550 240 L550 330 L380 330 Z"/>
+  <path id="Morona_Santiago" class="provincia" d="M380 340 L550 340 L550 430 L380 430 Z"/>
+  <path id="Zamora_Chinchipe" class="provincia" d="M380 440 L550 440 L550 520 L380 520 Z"/>
+
+  <!-- Galápagos -->
+  <circle id="Galapagos" class="provincia" cx="650" cy="150" r="40"/>
+</svg>

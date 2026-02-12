@@ -1,0 +1,362 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Azuay" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.45, -2.65],
+          [-79.15, -2.85],
+          [-78.95, -2.65],
+          [-79.10, -2.30],
+          [-79.45, -2.40],
+          [-79.45, -2.65]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Bolívar" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.15, -1.65],
+          [-78.85, -1.80],
+          [-78.65, -1.50],
+          [-78.90, -1.30],
+          [-79.15, -1.40],
+          [-79.15, -1.65]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Cañar" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.15, -2.35],
+          [-78.85, -2.55],
+          [-78.65, -2.25],
+          [-78.85, -2.05],
+          [-79.15, -2.15],
+          [-79.15, -2.35]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Carchi" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-78.05, 0.90],
+          [-77.85, 0.75],
+          [-77.65, 0.85],
+          [-77.75, 1.05],
+          [-78.05, 1.05],
+          [-78.05, 0.90]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Chimborazo" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-78.95, -1.90],
+          [-78.65, -2.10],
+          [-78.45, -1.85],
+          [-78.65, -1.55],
+          [-78.95, -1.65],
+          [-78.95, -1.90]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Cotopaxi" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-78.85, -0.85],
+          [-78.55, -1.05],
+          [-78.35, -0.85],
+          [-78.55, -0.55],
+          [-78.85, -0.65],
+          [-78.85, -0.85]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "El Oro" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-80.15, -3.55],
+          [-79.85, -3.75],
+          [-79.55, -3.55],
+          [-79.75, -3.15],
+          [-80.15, -3.25],
+          [-80.15, -3.55]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Esmeraldas" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.15, 0.85],
+          [-78.75, 0.65],
+          [-78.55, 0.85],
+          [-78.75, 1.15],
+          [-79.15, 1.15],
+          [-79.15, 0.85]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Galápagos" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-91.60, -0.90],
+          [-91.20, -1.00],
+          [-90.90, -0.80],
+          [-91.20, -0.60],
+          [-91.60, -0.70],
+          [-91.60, -0.90]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Guayas" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-80.25, -2.55],
+          [-79.95, -2.75],
+          [-79.65, -2.55],
+          [-79.85, -2.15],
+          [-80.25, -2.25],
+          [-80.25, -2.55]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Imbabura" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-78.35, 0.45],
+          [-78.05, 0.25],
+          [-77.85, 0.45],
+          [-78.05, 0.75],
+          [-78.35, 0.65],
+          [-78.35, 0.45]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Loja" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.45, -4.25],
+          [-79.15, -4.45],
+          [-78.85, -4.25],
+          [-79.05, -3.85],
+          [-79.45, -3.95],
+          [-79.45, -4.25]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Manabí" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-80.65, -1.55],
+          [-80.25, -1.75],
+          [-79.95, -1.55],
+          [-80.15, -1.15],
+          [-80.65, -1.25],
+          [-80.65, -1.55]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Morona Santiago" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-78.15, -2.75],
+          [-77.75, -3.05],
+          [-77.35, -2.75],
+          [-77.65, -2.35],
+          [-78.15, -2.45],
+          [-78.15, -2.75]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Napo" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.95, -0.75],
+          [-77.55, -1.05],
+          [-77.15, -0.75],
+          [-77.45, -0.35],
+          [-77.95, -0.45],
+          [-77.95, -0.75]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Orellana" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.55, -0.25],
+          [-77.15, -0.55],
+          [-76.75, -0.25],
+          [-77.05, 0.15],
+          [-77.55, 0.05],
+          [-77.55, -0.25]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Pastaza" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.95, -1.95],
+          [-77.55, -2.25],
+          [-77.15, -1.95],
+          [-77.45, -1.55],
+          [-77.95, -1.65],
+          [-77.95, -1.95]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Pichincha" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-78.75, -0.15],
+          [-78.45, -0.35],
+          [-78.15, -0.15],
+          [-78.35, 0.25],
+          [-78.75, 0.15],
+          [-78.75, -0.15]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Santa Elena" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-80.95, -2.15],
+          [-80.65, -2.35],
+          [-80.35, -2.15],
+          [-80.55, -1.85],
+          [-80.95, -1.95],
+          [-80.95, -2.15]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Santo Domingo de los Tsáchilas" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.35, -0.45],
+          [-79.05, -0.65],
+          [-78.75, -0.45],
+          [-78.95, -0.15],
+          [-79.35, -0.25],
+          [-79.35, -0.45]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Sucumbíos" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-76.95, 0.15],
+          [-76.55, -0.15],
+          [-76.15, 0.15],
+          [-76.45, 0.55],
+          [-76.95, 0.45],
+          [-76.95, 0.15]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Tungurahua" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-78.75, -1.25],
+          [-78.45, -1.45],
+          [-78.15, -1.25],
+          [-78.35, -0.95],
+          [-78.75, -1.05],
+          [-78.75, -1.25]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "Zamora Chinchipe" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-78.95, -4.05],
+          [-78.55, -4.35],
+          [-78.15, -4.05],
+          [-78.45, -3.65],
+          [-78.95, -3.75],
+          [-78.95, -4.05]
+        ]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+/* ===================================
+   SISTEMA DE DISEÑO INSTITUCIONAL ANEUPI
+   =================================== */
+
+:root {
+  /* Colores Institucionales ANEUPI */
+  --color-navy: #0F3D5E;
+  --color-gold: #D4AF37;
+  --color-bankBlue: #0F3D5E;
+  --color-bankOrange: #D4AF37;
+
+  /* Variaciones de Navy */
+  --color-bankBlue-dark: #0A2D45;
+  --color-bankBlue-light: #1A5A7A;
+  --color-bankBlue-lighter: #E8F0F5;
+
+  /* Variaciones de Gold */
+  --color-bankOrange-dark: #B8962E;
+  --color-bankOrange-light: #E0C05C;
+  --color-bankOrange-lighter: #FDF8EC;
+
+  /* Escala de Grises Profesional */
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+
+  /* Colores de Estado */
+  --color-success: #10b981;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+  --color-info: #3b82f6;
+
+  /* Backgrounds */
+  --background: #F4F6F8;
+  --background-secondary: #f9fafb;
+  --foreground: #111827;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+
+  /* Bordes */
+  --border-radius: 8px;
+  --border-color: #e5e7eb;
+}
+
+@theme inline {
+  --color-bankBlue: var(--color-bankBlue);
+  --color-bankOrange: var(--color-bankOrange);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ===================================
+   ESTILOS BASE
+   =================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===================================
+   TIPOGRAFÍA PROFESIONAL
+   =================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-bankBlue);
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+h1 { font-size: 2.25rem; margin-bottom: 1rem; }
+h2 { font-size: 1.875rem; margin-bottom: 0.875rem; }
+h3 { font-size: 1.5rem; margin-bottom: 0.75rem; }
+h4 { font-size: 1.25rem; margin-bottom: 0.625rem; }
+
+p { margin-top: 0; margin-bottom: 1rem; }
+
+a {
+  color: var(--color-bankBlue);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover { color: var(--color-bankBlue-light); }
+
+/* ===================================
+   UTILIDADES GLOBALES
+   =================================== */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.text-center { text-align: center; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Custom scrollbar for dark panels */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
